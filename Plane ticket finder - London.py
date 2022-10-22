@@ -1,7 +1,6 @@
 # Imports for Selenium tester
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException  
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
@@ -109,7 +108,7 @@ def student_universe(f):
     driver.get(link)
 
     # Get Price
-    element = WebDriverWait(driver, 120).until(EC.element_to_be_clickable((By.XPATH,'//*[contains(@uib-tooltip, "Cheapest")]')))
+    element = WebDriverWait(driver, 150).until(EC.element_to_be_clickable((By.XPATH,'//*[contains(@uib-tooltip, "Cheapest")]')))
     f.write(element.text+"\n")
     f.write("Link:\n"+link+"\n\n")
 
