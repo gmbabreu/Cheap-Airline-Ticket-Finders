@@ -45,9 +45,6 @@ def main():
         
         f.write("Kayak\n")
         kayak(f)
-        
-        f.write("Google\n")
-        google(f)
 
         f.write("Kiwi\n")
         kiwi(f)
