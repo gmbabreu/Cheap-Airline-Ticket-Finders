@@ -38,7 +38,6 @@ def main():
     Operates the main txt file
     """
     with open(arriving+'_tickets.txt', 'w') as f:
-        # iterate through destinations 
         f.write(arriving+"\n\n")
 
         f.write("Expedia\n")
