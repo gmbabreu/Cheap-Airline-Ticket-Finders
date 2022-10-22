@@ -1,5 +1,5 @@
 # Plane ticket finder 
-Web scraping program that checks flight tickets for a specific destination and date, which you have to write into the file  manually. The program goes through 4 different websites and writes the result into a txt file. There is a sample file included with all the values filled in for a flight between Boston and London. These are the variables that have to be put written in the file before you run:
+Web scraping program that checks flight tickets for a specific destination and date, which you have to write into the file  manually. The program goes through 4 different websites (Expedia, Kayak, Kiwi, Student Universe) and writes the result into a txt file. There is a sample file included with all the values filled in for a flight between Boston and London. These are the variables that have to be put written in the file before you run:
 
 **Location:** 
 departing, departing_state, departing_country 
