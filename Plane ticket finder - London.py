@@ -75,7 +75,7 @@ def kayak(f):
     driver.get(link)
 
     # Get Price
-    time.sleep(7)
+    time.sleep(15)
     element = WebDriverWait(driver, 60).until(EC.visibility_of_element_located((By.XPATH,'//*[contains(@class, "price option-text")]')))
     f.write(element.text+"\n")
     f.write("Link:\n"+link+"\n\n")
